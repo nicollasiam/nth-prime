@@ -21,7 +21,7 @@ private
 
 def is_prime?(number)
   (2..number - 1).each do |i|
-    return false if number % i == 0
+    return false if (number % i).zero?
   end
 
   return true
