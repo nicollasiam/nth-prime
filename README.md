@@ -3,11 +3,11 @@
 
 ### To install
 ```bash
- git clone 
+ git clone https://github.com/nicollasiam/nth-prime.git
 ```
 
 ### To test
 ```bash
- cd 
+ cd nth-prime
  rspec
 ```
